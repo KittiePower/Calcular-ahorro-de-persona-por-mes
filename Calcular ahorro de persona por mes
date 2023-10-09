@@ -1,0 +1,28 @@
+/******************************************************************************
+Calcular ahorro de persona por mes
+Autor: Elisa Michelle MV.
+Fecha: 230322
+*******************************************************************************/
+   
+#include <iostream>
+  using namespace std;
+
+int
+main () 
+{
+  
+    //DeclaraciC3n de variables 
+    float sueldo, ahorropersona, semanas;
+    float ahorro= 0.15;
+  
+ 
+    //Entrada de datos por teclado y procedimientos 
+std::cout<<" Escribe el valor del sueldo  ";
+std::cin >> sueldo;
+ahorropersona = sueldo * 4 / 0.15,
+std::cout<< " El ahorro por persona cada mes es igual a  " << ahorropersona <<std::endl;
+  
+ 
+return 0;
+
+}
